@@ -1,5 +1,5 @@
 {% set name = "knotifications" %}
-{% set version = "5.72.0" %}
+{% set version = "5.73.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/knotifications-{{ version }}.tar.xz
-  sha256: 1d3f8c06c5b152ae9134ffd8d41224cadbfb43c4183aee389e88086e596ad05f
+  sha256: c8e9f36716db33baca93a0386d3bb6426408eee3843eb5854bdd8ad7579f372c
 
 build:
   number: 0
